@@ -23,7 +23,7 @@ form.addEventListener("submit", (e) => {
   } else if (password.value.length < 5) {
     password_error.innerHTML = "Password should contain atleast 5 characters";
   }
-  alert("User registered successfully");
+
   displayUserName.innerHTML = userName.value;
   displayEmail.innerHTML = email.value;
   displayPassword.innerHTML = password.value;
